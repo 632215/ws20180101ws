@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ws20180101ws.ui.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_main"
+        android:layout_alignParentTop="true" />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="80pt"
+        android:layout_alignParentBottom="true"
+        android:background="@color/layout_title_bar_line"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="@drawable/select_radio_text_color"
+            android:textSize="24pt" />
+
+        <RadioButton
+            android:id="@+id/rb_change"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="兑奖"
+            android:textColor="@drawable/select_radio_text_color"
+            android:textSize="24pt" />
+
+        <RadioButton
+            android:id="@+id/rb_set"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@drawable/select_radio_text_color"
+            android:textSize="24pt" />
+
+    </RadioGroup>
+</RelativeLayout>

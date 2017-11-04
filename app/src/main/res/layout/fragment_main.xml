@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.donkingliang.banner.CustomBanner
+        android:id="@+id/customBanner"
+        android:layout_width="match_parent"
+        android:layout_height="300pt"
+        app:indicatorInterval="26pt"
+        app:indicatorSelectRes="@drawable/shape_point_select"
+        app:indicatorStyle="ORDINARY"
+        app:indicatorUnSelectRes="@drawable/shape_point_unselect" />
+
+    <TextView
+        android:id="@+id/tx_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/payment_text_color21"
+        android:textSize="30pt" />
+
+</RelativeLayout>

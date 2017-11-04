@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent">#c6000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="default_bg">#f8f8f8</color>
+    <color name="layout_title_bar_bg">#FFFFFF</color>
+    <color name="layout_title_bar_text_bg">#424041</color>
+    <color name="patrol_remind_bg">#36A9FC</color>
+    <color name="patrol_remind_time_off">#AFDDFE</color>
+    <color name="toast_notice_bg">#33FFFFFF</color>
+    <color name="layout_title_bar_line">#E6E4E5</color>
+    <color name="text_color_1">#4F4F4F</color>
+    <color name="text_color_2">#191919</color>
+    <color name="text_color_3">#302E29</color>
+    <color name="text_color_6">#ffe2e2e2</color>
+    <color name="gray_border">#949494</color>
+
+    <color name="main_them_color">#FF063D</color>
+    <color name="main_gray_default">#EFEFF4</color>
+    <color name="main_gray_line">#F6F6F6</color>
+    <color name="main_radio_chose_color">#FF344D</color>
+    <color name="main_normal_text_color">#505050</color>
+    <color name="main_present_text_black">#333333</color>
+    <color name="main_present_text_gray">#666666</color>
+    <color name="main_present_title_text">#56606F</color>
+    <color name="main_home_bottom_gray">#9E9E9E</color>
+    <color name="main_home_adapter">#979797</color>
+
+    <color name="circle_gray">#EFEEF3</color>
+    <color name="circle_name_color">#333333</color>
+    <color name="circle_money_color">#999999</color>
+    <color name="circle_end_color">#FF063D</color>
+    <color name="circle_start_color">#FD6744</color>
+    <color name="circle_walking_range_color">#0FBC2C</color>
+    <color name="circle_walking_num_color">#FFFF8000</color>
+    <color name="walking_range_line">#ECECEC</color>
+    <color name="broken_dialog_blue">#3F96FB</color>
+
+
+    <color name="house_setting_present">#FF344D</color>
+    <color name="house_unSetting_present">#979797</color>
+    <color name="payment_divider_bg">#FFEFEFF4</color>
+    <color name="payment_text_address">#3A3A3A</color>
+    <color name="payment_divider1_bg">#E5E5E5</color>
+    <color name="select_community_line">#ECECEC</color>
+    <color name="payment_text_color1">#868686</color>
+    <color name="payment_text_color2">#7C7C7C</color>
+    <color name="payment_text_color3">#676767</color>
+    <color name="payment_text_color4">#FF4D63</color>
+    <color name="payment_text_color5">#FF3A3A3A</color>
+    <color name="payment_text_color6">#9C9C9C</color>
+    <color name="payment_text_color7">#418BFF</color>
+    <color name="payment_text_color8">#FF001F</color>
+    <color name="payment_text_color9">#0E0E0E</color>
+    <color name="payment_text_color10">#6E6E6E</color>
+    <color name="payment_text_color11">#575757</color>
+    <color name="payment_text_color12">#121212</color>
+    <color name="payment_text_color13">#4C4C4C</color>
+    <color name="payment_text_color14">#454545</color>
+    <color name="payment_text_color15">#343434</color>
+    <color name="payment_text_color16">#FF0045</color>
+    <color name="payment_text_color17">#FFF2F6</color>
+    <color name="payment_text_color18">#595959</color>
+    <color name="payment_text_color19">#3D3D3D</color>
+    <color name="payment_text_color20">#333333</color>
+    <color name="payment_text_color21">#151515</color>
+    <color name="payment_text_color22">#969696</color>
+    <color name="payment_text_color23">#FF92A0</color>
+    <color name="payment_text_color24">#F9F9F9</color>
+
+
+    <color name="spots_dialog_color">#107FFE</color>
+    <color name="life_text_color1">#F6A623</color>
+    <color name="life_text_color2">#9012FE</color>
+    <color name="list_bg">#00000000</color>
+    <color name="text_gray">#666666</color>
+    <color name="activity_access_control_bg">#323843</color>
+    <color name="activity_access_control_layout_bg">#323535</color>
+    <color name="activity_access_control_open_success">#FFE800</color>
+    <color name="activity_access_control_title_bg">#343339</color>
+    <color name="activity_access_control_layout_7fbg">#7f323535</color>
+    <color name="colorAccent_50">#7fFF4081</color>
+    <color name="page_head_title">#4A494A</color>
+    <color name="open_door_bg">#F5F5F7</color>
+    <color name="open_door_hint_color">#999999</color>
+    <color name="line_gray">#dfdfdf</color>
+    <color name="activity_visitor_pass_text_color1">#383838</color>
+    <color name="activity_visitor_pass_text_bg1">#36BAF5</color>
+    <color name="activity_visitor_pass_text_color2">#6A6A6A</color>
+    <color name="activity_visitor_pass_text_color3">#32BBFE</color>
+    <color name="activity_visitor_pass_text_color4">#636363</color>
+    <color name="main_select_text_color">#E8003A</color>
+    <color name="activity_visitor_pass_text_bg2">#D7F2FE</color>
+    <color name="activity_visitor_pass_text_bg3">#52A8D1</color>
+
+    <color name="activity_release_text_color1">#2F2F2F</color>
+    <color name="activity_release_text_color2">#3CB9F6</color>
+    <color name="activity_release_text_color3">#686868</color>
+
+    <color name="video_call_1">#FFFFFF</color>
+    <color name="activity_release_text_color4">#3BB8F5</color>
+
+    <color name="activity_vehicle_text_color1">#3D3D3D</color>
+    <color name="activity_vehicle_text_color2">#333333</color>
+    <color name="activity_vehicle_text_color3">#9B9B9B</color>
+    <color name="activity_vehicle_text_color4">#FF0045</color>
+    <color name="activity_vehicle_text_color5">#CCCCCC</color>
+
+    <color name="pop_layout_community_select_color1">#333333</color>
+    <color name="pop_layout_community_select_color2">#918F92</color>
+</resources>
