@@ -6,13 +6,64 @@
     android:orientation="vertical">
 
     <com.donkingliang.banner.CustomBanner
-        android:id="@+id/customBanner"
+        android:id="@+id/custom_banner"
         android:layout_width="match_parent"
-        android:layout_height="300pt"
-        app:indicatorInterval="26pt"
+        android:layout_height="250pt"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        app:indicatorInterval="34pt"
         app:indicatorSelectRes="@drawable/shape_point_select"
         app:indicatorStyle="ORDINARY"
         app:indicatorUnSelectRes="@drawable/shape_point_unselect" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_banner">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tx_name_3d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/icon_fu"
+                android:drawablePadding="2pt"
+                android:padding="10pt"
+                android:text="福彩3D"
+                android:textSize="34pt" />
+
+            <com.ws20180101ws.ui.widget.FillListView
+                android:id="@+id/list_view_fu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tx_name_3d"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/tx_name_da"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/list_view_fu"
+                android:drawableLeft="@mipmap/icon_da"
+                android:drawablePadding="2pt"
+                android:padding="10pt"
+                android:text="大乐透"
+                android:textSize="34pt" />
+
+            <com.ws20180101ws.ui.widget.FillListView
+                android:id="@+id/list_view_da"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tx_name_da"
+                android:divider="@null"
+                android:scrollbars="none" />
+        </RelativeLayout>
+    </ScrollView>
 
     <TextView
         android:id="@+id/tx_main"
@@ -20,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textColor="@color/payment_text_color21"
-        android:textSize="30pt" />
+        android:textSize="30pt"
+        android:visibility="gone" />
 
 </RelativeLayout>
