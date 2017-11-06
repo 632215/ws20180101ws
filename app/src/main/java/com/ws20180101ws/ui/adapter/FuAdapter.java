@@ -1,4 +1,4 @@
-package com.ws20180101ws.ui.adapter.base;
+package com.ws20180101ws.ui.adapter;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import com.ws20180101ws.R;
 import com.ws20180101ws.bean.FuBean;
+import com.ws20180101ws.ui.adapter.base.BaseViewHolder;
+import com.ws20180101ws.ui.adapter.base.CommonAdapter;
 
 import java.util.List;
 

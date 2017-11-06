@@ -69,7 +69,7 @@
     <color name="payment_text_color22">#969696</color>
     <color name="payment_text_color23">#FF92A0</color>
     <color name="payment_text_color24">#F9F9F9</color>
-
+    <color name="white">#FFFFFF</color>
 
     <color name="spots_dialog_color">#107FFE</color>
     <color name="life_text_color1">#F6A623</color>

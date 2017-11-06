@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="20pt">
+    android:layout_height="wrap_content"
+    android:paddingBottom="10pt"
+    android:paddingLeft="20pt"
+    android:paddingTop="10pt">
 
     <TextView
         android:id="@+id/tx_expect"
@@ -10,7 +12,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="5pt"
         android:text="期号:"
-        android:textSize="30pt" />
+        android:textSize="26pt" />
 
     <TextView
         android:id="@+id/tx_opentime"
@@ -19,14 +21,14 @@
         android:layout_below="@+id/tx_expect"
         android:paddingTop="5pt"
         android:text="日期:"
-        android:textSize="30pt" />
+        android:textSize="26pt" />
 
     <TextView
         android:id="@+id/tx_opencode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="5pt"
         android:layout_below="@+id/tx_opentime"
+        android:paddingTop="5pt"
         android:text="开奖号码："
         android:textSize="30pt" />
 
@@ -35,6 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="1pt"
         android:layout_below="@+id/tx_opencode"
-        android:layout_marginTop="5pt"
-        android:background="@color/default_bg" />
+        android:layout_marginTop="10pt"
+        android:background="@color/gray_border" />
 </RelativeLayout>

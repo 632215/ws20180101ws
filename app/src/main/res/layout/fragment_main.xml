@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/default_bg"
     android:orientation="vertical">
 
     <com.donkingliang.banner.CustomBanner
@@ -10,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="250pt"
         android:layout_alignParentTop="true"
-        android:visibility="gone"
+        android:background="@color/payment_text_color24"
         app:indicatorInterval="34pt"
         app:indicatorSelectRes="@drawable/shape_point_select"
         app:indicatorStyle="ORDINARY"
@@ -30,8 +31,10 @@
                 android:id="@+id/tx_name_3d"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/payment_text_color24"
                 android:drawableLeft="@mipmap/icon_fu"
                 android:drawablePadding="2pt"
+                android:gravity="center_vertical"
                 android:padding="10pt"
                 android:text="福彩3D"
                 android:textSize="34pt" />
@@ -41,6 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tx_name_3d"
+                android:background="@color/payment_text_color24"
                 android:divider="@null"
                 android:scrollbars="none" />
 
@@ -49,8 +53,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/list_view_fu"
+                android:layout_marginTop="20pt"
+                android:background="@color/payment_text_color24"
                 android:drawableLeft="@mipmap/icon_da"
                 android:drawablePadding="2pt"
+                android:gravity="center_vertical"
                 android:padding="10pt"
                 android:text="大乐透"
                 android:textSize="34pt" />
@@ -60,6 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tx_name_da"
+                android:background="@color/payment_text_color24"
                 android:divider="@null"
                 android:scrollbars="none" />
         </RelativeLayout>

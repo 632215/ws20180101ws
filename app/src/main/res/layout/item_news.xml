@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10pt"
+    android:paddingTop="10pt">
+
+    <TextView
+        android:id="@+id/tx_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="谁能今晚中得1000万大奖 生肖鼠虎兔被内定了"
+        android:textColor="@color/payment_text_color21"
+        android:textSize="28pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@mipmap/icon_arrow"
+        android:paddingRight="10pt" />
+
+    <TextView
+        android:id="@+id/tx_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_title"
+        android:paddingTop="10pt"
+        android:text="11-06 08:28"
+        android:textSize="24pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1pt"
+        android:layout_below="@+id/tx_time"
+        android:layout_marginTop="10pt"
+        android:background="@color/gray_border" />
+</RelativeLayout>

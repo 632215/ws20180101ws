@@ -19,7 +19,7 @@ import com.ws20180101ws.base.BaseFragment;
 import com.ws20180101ws.bean.DaBean;
 import com.ws20180101ws.bean.FuBean;
 import com.ws20180101ws.ui.adapter.DaAdapter;
-import com.ws20180101ws.ui.adapter.base.FuAdapter;
+import com.ws20180101ws.ui.adapter.FuAdapter;
 import com.ws20180101ws.ui.widget.FillListView;
 import com.ws20180101ws.util.GsonUtils;
 import com.ws20180101ws.util.LogUtils;
@@ -57,14 +57,13 @@ public class MainFragment extends BaseFragment {
 
     @Override
     protected void initView(View view, Bundle savedInstanceState) {
-        txMain.setText("主页");
         setTitle("主页");
         initList();
 
     }
 
     private void getDaList() {
-        daAdapter = new DaAdapter(getActivity(), R.layout.fu_item, daList);
+        daAdapter = new DaAdapter(getActivity(), R.layout.item_fu, daList);
         daListView.setAdapter(daAdapter);
         RequestParams params = new RequestParams();
         HttpUtils http = new HttpUtils(200000);
@@ -73,9 +72,12 @@ public class MainFragment extends BaseFragment {
                 new RequestCallBack<String>() {
                     @Override
                     public void onSuccess(ResponseInfo<String> responseInfo) {
-                        DaBean bean = GsonUtils.GsonToBean(responseInfo.result, DaBean.class);
-                        daList = bean.getData();
-                        daAdapter.setDataList(daList);
+                        try {
+                            DaBean bean = GsonUtils.GsonToBean(responseInfo.result, DaBean.class);
+                            daList = bean.getData();
+                            daAdapter.setDataList(daList);
+                        } catch (Exception e) {
+                        }
                     }
 
                     @Override
@@ -86,7 +88,7 @@ public class MainFragment extends BaseFragment {
     }
 
     private void getFuList() {
-        fuAdapter = new FuAdapter(getActivity(), R.layout.fu_item, fuList);
+        fuAdapter = new FuAdapter(getActivity(), R.layout.item_fu, fuList);
         fuListView.setAdapter(fuAdapter);
         RequestParams params = new RequestParams();
         HttpUtils http = new HttpUtils(200000);
@@ -95,9 +97,12 @@ public class MainFragment extends BaseFragment {
                 new RequestCallBack<String>() {
                     @Override
                     public void onSuccess(ResponseInfo<String> responseInfo) {
-                        FuBean bean = GsonUtils.GsonToBean(responseInfo.result, FuBean.class);
-                        fuList = bean.getData();
-                        fuAdapter.setDataList(fuList);
+                        try {
+                            FuBean bean = GsonUtils.GsonToBean(responseInfo.result, FuBean.class);
+                            fuList = bean.getData();
+                            fuAdapter.setDataList(fuList);
+                        } catch (Exception e) {
+                        }
                     }
 
                     @Override

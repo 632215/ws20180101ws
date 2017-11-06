@@ -17,9 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="80pt"
         android:layout_alignParentBottom="true"
-        android:background="@color/layout_title_bar_line"
-        android:orientation="horizontal"
-        >
+        android:background="@color/white"
+        android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/rb_home"
@@ -39,7 +38,7 @@
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center"
-            android:text="兑奖"
+            android:text="新闻"
             android:textColor="@drawable/select_radio_text_color"
             android:textSize="24pt" />
 
@@ -50,7 +49,7 @@
             android:layout_weight="1"
             android:button="@null"
             android:gravity="center"
-            android:text="设置"
+            android:text="个人中心"
             android:textColor="@drawable/select_radio_text_color"
             android:textSize="24pt" />
 

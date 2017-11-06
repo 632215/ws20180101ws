@@ -13,12 +13,13 @@
         android:layout_alignBaseline="@+id/button_backward"
         android:layout_alignBottom="@+id/button_backward"
         android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
         android:ellipsize="marquee"
         android:gravity="center_horizontal|center"
         android:singleLine="true"
         android:text="title bar"
         android:textColor="@color/layout_title_bar_text_bg"
-        android:textSize="18pt" />
+        android:textSize="36pt" />
 
     <TextView
         android:id="@+id/button_backward"

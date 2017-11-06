@@ -8,17 +8,12 @@ import android.widget.RadioGroup;
 
 import com.ws20180101ws.R;
 import com.ws20180101ws.base.BaseActivity;
-import com.ws20180101ws.bean.HttpResult;
-import com.ws20180101ws.bean.URLBean;
-import com.ws20180101ws.http.HttpMethods;
-import com.ws20180101ws.http.ProgressSubscriber;
-import com.ws20180101ws.http.SubscriberOnNextListener;
+
 import com.ws20180101ws.ui.fragment.ChangeFragment;
 import com.ws20180101ws.ui.fragment.MainFragment;
 import com.ws20180101ws.ui.fragment.SetFragment;
 
-import java.util.HashMap;
-import java.util.Map;
+
 
 import butterknife.Bind;
 
@@ -44,24 +39,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
         manager = getSupportFragmentManager();
         transaction = manager.beginTransaction();
         rgMain.setOnCheckedChangeListener(this);
-        setDefaultFragment();
-//        Map map = new HashMap();
-//        map.put("appid", "no170001");
-//        map.put("type", "android");
-//
-//        SubscriberOnNextListener nextListener = new SubscriberOnNextListener<URLBean>() {
-//            @Override
-//            public void onNext(URLBean urlBean) {
-//                String url = urlBean.getUrl();
-//            }
-//
-//            @Override
-//            public void onError(String Code) {
-//
-//            }
-//        };
-//        HttpMethods.getInstance().getURL(new ProgressSubscriber<HttpResult<URLBean>>(nextListener, this), map);
-    }
+        setDefaultFragment();    }
 
     private void setDefaultFragment() {
         if (mainFragment == null) {
