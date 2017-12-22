@@ -31,7 +31,7 @@ public class StartupPageActivity extends BaseActivity {
         animation.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationEnd(Animation arg0) {
-                startActivity(new Intent(StartupPageActivity.this, MainActivity.class));
+                startActivity(new Intent(StartupPageActivity.this, GuidePage.class));
                 finish();
             }
 
